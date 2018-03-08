@@ -44,7 +44,7 @@ module.exports.connections = {
 
   dockerPsqlDb: {
     adapter: 'sails-postgresql',
-    host: 'localhost',
+    host: '127.0.0.1',
     port: 5432,
     user: 'mtaa',
     password: 'Kie5deinah1ooriThiecheemaebohy7d',
