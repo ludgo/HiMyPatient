@@ -12,7 +12,8 @@
 /* global Settings */
 
 module.exports.bootstrap = function (cb) {
-  process.env.TZ = 'Europe/Bratislava';
+  //process.env.TZ = 'Europe/Bratislava';
+  process.env.TZ = 'UTC';
 
   // Load settings (available in ejs local settings, sails.config.views.locals.settings or res.locals.settings)
   // Settings.load(() => {

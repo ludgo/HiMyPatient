@@ -18,7 +18,6 @@ module.exports = {
     },
     birth_date: {
       type: 'date',
-      datetime: true,
       required: true,
       notNull: true
     },
@@ -40,10 +39,6 @@ module.exports = {
     },
     allergens: {
       type: 'array',
-      min: 1,
-      max: 14,
-      maxLength: 14,
-      required: true,
       defaultsTo: []
     }
   }

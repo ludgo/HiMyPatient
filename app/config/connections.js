@@ -48,6 +48,7 @@ module.exports.connections = {
     port: 5432,
     user: 'mtaa',
     password: 'Kie5deinah1ooriThiecheemaebohy7d',
-    database: 'mtaadb'
+    database: 'mtaadb',
+    timezone: 'utc'
   }
 };
