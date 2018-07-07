@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="48dp"
+    tools:context="sk.stuba.fiit.mtaa.himypatient.LoginActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_margin="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/app_slogan"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/style_field_login"
+        android:layout_above="@id/password"
+        android:hint="email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/style_field_login"
+        android:layout_above="@id/button_login"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlue900"
+        android:text="Login"
+        android:onClick="login" />
+
+</RelativeLayout>

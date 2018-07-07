@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/patient_list"
+    android:name="sk.stuba.fiit.mtaa.himypatient.PatientListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutManager="GridLayoutManager"
+    app:spanCount="2"
+    tools:context="sk.stuba.fiit.mtaa.himypatient.PatientListActivity"
+    tools:listitem="@layout/patient_list_content" />

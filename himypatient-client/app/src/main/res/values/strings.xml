@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">HiMyPatient</string>
+    <string name="app_slogan">All your patients at one place.</string>
+
+    <string name="user_email_dummy">mtaa@example.com</string>
+    <string name="user_password_dummy">password</string>
+    <string name="user_name_dummy">Adrian Doctor</string>
+
+    <string name="comma_name">%1$s, %2$c.</string>
+
+    <string name="error_permission">Permission to read storage is necessary.</string>
+    <string name="error_internet">No internet connection.</string>
+    <string name="error_credentials">Wrong email or password.</string>
+    <string name="error_unavailable">Sorry, HiMyPatient currently not available.</string>
+    <string name="error_pick_image">Image cannot be accessed.</string>
+
+    <string name="dialog_delete_title">Remove %1$s %2$s forever?</string>
+    <string name="dialog_delete_button_positive">Delete</string>
+    <string name="dialog_delete_button_negative">Cancel</string>
+
+    <string-array name="blood_types">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="allergens">
+        <item>1 Cereals containing gluten</item>
+        <item>2 Crustaceans</item>
+        <item>3 Eggs</item>
+        <item>4 Fish</item>
+        <item>5 Peanuts</item>
+        <item>6 Soybeans</item>
+        <item>7 Milk</item>
+        <item>8 Nuts</item>
+        <item>9 Celery</item>
+        <item>10 Mustard</item>
+        <item>11 Sesame seeds</item>
+        <item>12 Sulphur dioxide and sulphites</item>
+        <item>13 Lupin</item>
+        <item>14 Molluscs</item>
+    </string-array>
+
+</resources>

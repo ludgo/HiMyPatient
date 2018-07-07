@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blue -->
+    <color name="colorBlue300">#64B5F6</color>
+    <color name="colorBlue900">#0D47A1</color>
+    <color name="colorBlueA400">#2979FF</color>
+
+    <!-- Deep Orange -->
+    <color name="colorDeepOrangeA400">#FF3D00</color>
+
+    <color name="colorPrimary">@color/colorBlueA400</color>
+    <color name="colorPrimaryDark">@color/colorBlue900</color>
+    <color name="colorAccent">@color/colorDeepOrangeA400</color>
+
+    <color name="colorBackground">@color/colorBlue300</color>
+
+</resources>
